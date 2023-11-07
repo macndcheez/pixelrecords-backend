@@ -7,4 +7,4 @@ set -o errexit
 pip install -r dependencies.txt
 
 ## Run migrations in case any migrations hadn't been run yet
-python3 manage.py migrate
+python manage.py migrate
